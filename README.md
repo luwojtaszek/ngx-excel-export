@@ -1,6 +1,6 @@
 # Description
 
-An example Angular2 application that shows how to export data to an excel file.
+An example Angular4 application that shows how to export data to an excel file.
 
 # Instruction
 
