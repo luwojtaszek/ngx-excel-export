@@ -1,15 +1,15 @@
 import { TestBed, inject } from '@angular/core/testing';
 
-import { ExcelServiceService } from './excel-service.service';
+import { ExcelService } from './excel.service';
 
 describe('ExcelServiceService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [ExcelServiceService]
+      providers: [ExcelService]
     });
   });
 
-  it('should be created', inject([ExcelServiceService], (service: ExcelServiceService) => {
+  it('should be created', inject([ExcelService], (service: ExcelService) => {
     expect(service).toBeTruthy();
   }));
 });
