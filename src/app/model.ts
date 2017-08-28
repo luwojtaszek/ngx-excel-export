@@ -9,13 +9,13 @@ export class Person {
 export const PERSONS: Person[] = [
     {
         id: 1,
-        name: 'Thomas',
+        name: 'Very long name which needs to be wrapped',
         surname: 'Novicky',
         age: 21
     },
     {
         id: 2,
-        name: 'Adam',
+        name: 'Another long name that won\'t be wrapped',
         surname: 'Tracz',
         age: 12
     },
